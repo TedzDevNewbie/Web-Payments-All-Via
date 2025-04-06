@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE PAYMENT</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="https://files.catbox.moe/ew33a6.jpg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Background -->
+    <div id="background-container"></div>
+
+    <!-- HEADER -->
+    <header>
+        <h1 id="site-title">WEBSITE PAYMENT</h1>
+        <div id="marquee-container">
+            <div id="marquee-text">SELAMAT DATANG DI WEB PAYMENT SHIINKZY</div>
+			
+			
+        </div>
+    </header>
+    
+    <!-- METODE PEMBAYARAN -->
+    <section id="payment">
+        <h3>Pilih Metode Pembayaran</h3>
+        
+        <button class="button large-button" onclick="copyToClipboard('Dana')">
+            <i class="fa-solid fa-wallet"></i> Dana
+        </button>
+
+        <button class="button large-button" onclick="copyToClipboard('Ovo')">
+            <i class="fa-solid fa-mobile-alt"></i> Ovo
+        </button>
+
+        <button class="button large-button" onclick="copyToClipboard('Gopay')">
+            <i class="fa-solid fa-money-bill-wave"></i> Gopay
+        </button>
+
+        <br>
+
+        <!-- QRIS BUTTON -->
+        <a id="qris-link" class="button large-button" target="_blank">
+            <i class="fa-solid fa-qrcode"></i> QRIS
+        </a>
+    </section>
+
+    <!-- TAB HUBUNGI SAYA & CREDITS -->
+    <footer>
+        <section id="contact">
+            <h3>Hubungi Saya</h3>
+            <a class="button small-button" href="https://wa.me/6283137843074" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a class="button small-button" href="mailto:teddyboyzzz1234@gmail.com">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+        </section>
+
+        <!-- CREDITS -->
+        <div id="credits">
+            <p>&copy; 2025 Shiinkzy Payment. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="kyykzy.js"></script>
+</body>
+</html>
